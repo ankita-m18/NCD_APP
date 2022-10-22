@@ -31,7 +31,7 @@ def ncd_rac():
 
         total = age + smoke + alcohol + waist + phy_act + fam_his
 
-        
+        res=" "
         if total>4:
             res="The person may be at higher risk of NCDs and needs to be prioritized for attending screening."
         else:
